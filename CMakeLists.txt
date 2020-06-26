@@ -3,7 +3,6 @@ cmake_minimum_required (VERSION 3.2)                                            
 
                project (my_tutor_first VERSION 0.0.1$ENV{TRAVIS_BULD_NUMBER})   # создание виртуального проекта my_tutor_first а так же номера версии
                
-          find_package (spdlog  REQUIRED)
           find_package (Threads REQUIRED)                                       # искать потоки
           find_package (Boost   COMPONENTS unit_test_framework REQUIRED)        # искать boost
 
